@@ -1,0 +1,35 @@
+.topo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f9db79;
+}
+
+.containerTopo{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerTopo img{
+    width: 100px;
+}
+
+.containerTopo nav{
+    display: flex;
+    justify-content: space-evenly;  
+    gap: 20px;
+}   
+
+.containerTopo nav button{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border: transparent;
+    background-color: transparent;
+}
+
+.containerTopo nav button:hover{
+    color: lightblue;
+}

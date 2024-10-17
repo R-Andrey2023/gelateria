@@ -1,0 +1,43 @@
+.bannerSobre{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../../public/assets/banner-sobre.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-color: #f9db79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerSobre h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.paginaSobre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoSobre{
+    width: 1024px;
+    text-align: center;
+    margin: 50px;
+}
+
+.textoSobre div{
+    margin: 50px 0;
+}
+
+.imagensSobre{
+    display: flex;
+}
+
+.imagensSobre img{
+    width: 50%;
+}
