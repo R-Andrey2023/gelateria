@@ -1,0 +1,32 @@
+.molduraSecoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.molduraSecoes img{
+    width: 50%;
+    height:600px;
+}
+
+.molduraSecoes div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}  
+
+.molduraSecoes div div{
+    text-align: center;
+}
+
+.molduraSecoes div p{
+    width: 500px;
+    text-align: justify;
+}
+
+
