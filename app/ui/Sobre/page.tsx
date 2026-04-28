@@ -1,4 +1,3 @@
-import React from "react";
 import BannerSobre from "./banner-sobre";
 import estilos from '../../styles/styles/estilosSobre/estilos-secao-sobre.module.css';
 
