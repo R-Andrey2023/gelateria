@@ -1,4 +1,5 @@
 import BannerSobre from "./banner-sobre";
+import Image from 'next/image';
 import estilos from '../../styles/styles/estilosSobre/estilos-secao-sobre.module.css';
 
 export default function SobrePagina(){
@@ -27,8 +28,8 @@ export default function SobrePagina(){
       </div>
 
       <div className={estilos.imagensSobre}>
-          <img src = 'assets/sobre-image.jpg' alt="pessoas-brindando"/>
-          <img src = 'assets/sorveteria.jpg' alt="balcao-sorveteria"/>
+          <Image src = '/assets/sobre-image.jpg' alt="pessoas-brindando" width={626} height={417}/>
+          <Image src = '/assets/sorveteria.jpg' alt="balcao-sorveteria" width={626} height={417}/>
       </div>
 
        </section>

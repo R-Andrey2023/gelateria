@@ -1,6 +1,6 @@
-import React from  'react';
+
 import estilos from '../styles/styles/rodape.module.css';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Rodape(){
     return(

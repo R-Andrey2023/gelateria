@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
 import MolduraHome from '../../moldura-secoes-home/index';
 
 
 export default function SobreHome(){
   return(
     <MolduraHome>
-       <img src="assets/sobre-image.jpg" alt="sobre"/>
+       <Image src="/assets/sobre-image.jpg" alt="sobre" width={626} height={417} />
 
        <div>
         <div>

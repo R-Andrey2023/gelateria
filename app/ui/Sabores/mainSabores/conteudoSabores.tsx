@@ -1,4 +1,3 @@
-import React from "react";
 import CardSabores from "./CardsSabores";
 import estilos from '../../../styles/styles/estilos-pagina-sabores/pageSabores.module.css';
 

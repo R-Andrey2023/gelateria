@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import MolduraHome from '../../moldura-secoes-home/index';
 
 
@@ -19,7 +20,7 @@ export default function EventosHome(){
 
        </div>
 
-       <img src="assets/eventos-image.jpg"  alt="eventos"/>
+       <Image src="/assets/eventos-image.jpg"  alt="eventos" width={900} height={600} />
 
 
      </MolduraHome>

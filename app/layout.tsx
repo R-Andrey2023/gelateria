@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Topo from './ui/navbar'
 import Rodape from './ui/footer'
-import "./globals.css";
+import "./styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",

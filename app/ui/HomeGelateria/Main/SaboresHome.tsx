@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import MolduraHome from '../../moldura-secoes-home/index';
 
 
@@ -5,7 +6,7 @@ import MolduraHome from '../../moldura-secoes-home/index';
 export default function SaboresHome(){
   return(
      <MolduraHome>
-       <img src="assets/banner-sabores.jpg" alt="sabores"/>
+       <Image src="/assets/banner-sabores.jpg" alt="sabores" width={1024} height={675} />
 
        <div>
         <div>
